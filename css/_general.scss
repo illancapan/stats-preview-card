@@ -1,20 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
-body{
+
+body {
     font-family: 'Inter', sans-serif;
     // font-family: 'Lexend Deca', sans-serif;
     background-color: $main-background;
 }
 
-.container{
-    border: 1px solid white;//TEMPORALL!!
+.container {
+    //border: 1px solid white; //TEMPORALL!!
     height: 100vh;
     display: flex;
     align-items: center;

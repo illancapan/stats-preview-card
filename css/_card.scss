@@ -1,7 +1,103 @@
-.card{
+.card {
     background-color: $card-background;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    max-width: 78%;
+    max-width: 1140px;
+    border-radius: 1.0rem;
+    margin: 5%;
 }
 
-.img-mobile{
+.card-text-part {
+    height: auto;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        width: 85%;
+
+    }
+
+    h1 {
+        color: $main-heading-stats;
+        font-size: 3.4rem;
+        margin-bottom: 2.8rem;
+        line-height: 4.2rem;
+        letter-spacing: 0.6px;
+    }
+
+    span {
+        color: $accent;
+    }
+
+    .text-description {
+        color: $main-paragraph;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        letter-spacing: 0.5px;
+    }
+
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+
+}
+
+.stats-blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.stats-num {
+    color: $main-heading-stats;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.stats-titles {
+    color: $stats-headings;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 0.8rem;
+}
+
+.card-img-part {
+    position: relative;
+    background-color: $accent;
+    border-radius: 0 1rem 1rem 0;
+}
+
+img {
+    mix-blend-mode: multiply;
+    height: 100%;
+}
+
+
+.img-mobile {
     display: none;
+}
+
+.pink {
+    background-color: hsl(277, 64%, 61%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
+    border-radius: 0 1rem 1rem 0;
 }
